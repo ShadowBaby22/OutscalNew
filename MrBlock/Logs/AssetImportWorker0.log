@@ -90,3 +90,15 @@ Received Import Request.
   path: Assets/Sprites
   artifactKey: Guid(bd470ad696d48409eb5e93fcbdf41c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites using Guid(bd470ad696d48409eb5e93fcbdf41c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07da28753ea3cc3e69384bc9e80d98f') in 0.012364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 275.632887 seconds.
+  path: Assets/Sprites/Square.png
+  artifactKey: Guid(10c396fd736b04ebf81cbf1d6e0786c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Square.png using Guid(10c396fd736b04ebf81cbf1d6e0786c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981322387fdbf424a9db086ca5903900') in 1.197896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/Sprites/SkullFish.png
+  artifactKey: Guid(f992f0840fee84bdbb255c8c5614d425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SkullFish.png using Guid(f992f0840fee84bdbb255c8c5614d425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650e8281d041664a6bb69379790826bc') in 0.038729 seconds 
