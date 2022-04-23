@@ -1,23 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
 
     public Rigidbody2D rigidbody2d;
+
+    public GameObject gameWonPanel; 
+
     public float speed;
     private float time = 0.0f;
    
+    private bool isGameWon = false; 
+
     // Update is called once per frame
     void FixedUpdate()
+
     {
+
+        if (isGameWon == true){
+
+            return;
+        }
+
+
+
         if(Input.GetAxis("Horizontal") > 0) //checks for input and accesses the Horizontal Axis that in the project settings for unity
         {
             rigidbody2d.velocity = new Vector2(speed, 0f); 
            
            if (speed>=5){
-               speed=speed+(1.2f*Time.deltaTime); 
+               //speed=speed+(1.2f*Time.deltaTime); 
                //rigidbody2d.velocity = new Vector2(speed, 0f); 
             Debug.Log(speed); 
            }
@@ -63,6 +78,17 @@ public class PlayerController : MonoBehaviour
 
      if(other.tag == "Door")
        Debug.Log("Level Complete"); 
+       gameWonPanel.SetActive(true);
+       isGameWon = true; 
+ }
+
+ public void RestartGame(){
+
+
+     SceneManager.LoadScene;
+    Debug.Log("button clicked"); 
+
+
  }
 
 }
